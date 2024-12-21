@@ -92,6 +92,7 @@ class Warrior extends Character {
         int attackPower = random.nextInt(maxAttackPower - minAttackPower + 1) + minAttackPower;
 
         target.setHealth(target.getHealth() - attackPower);
+        System.out.println("3. Archer");
 	}
         public static boolean CanGoCamping(int temperature) {
         	if (temperature>20) {
