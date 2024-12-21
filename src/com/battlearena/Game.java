@@ -93,4 +93,24 @@ class Warrior extends Character {
 
         target.setHealth(target.getHealth() - attackPower);
 	}
-}
+        public static boolean CanGoCamping(int temperature) {
+        	if (temperature>20) {
+	       
+     return true;   	
+        }
+        return false;     
+        
+      } 
+}       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
